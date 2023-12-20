@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5px;
+    color: white;
+}
+
+.cabecalho {
+    background-color: #ff6347; /* Tomate */
+    padding: 20px;
+    flex: 0 0 50px; /* Altura fixa */
+}
+
+.corpo {
+    display: flex;
+    flex: 1; /* Ocupa o restante do espaço na vertical */
+    gap: 5px;
+}
+
+.menu {
+    background-color: #56bffc; /* Azul Claro */
+    padding: 20px;
+    flex: 0 0 150px; /* Largura fixa */
+}
+
+.conteudo {
+    background-color: magenta; /* Violeta */
+    padding: 20px;
+    flex: 1; /* Ocupa o restante do espaço na horizontal */
+}
+
+.rodape {
+    background-color: #06f506; /* Verde Palido */
+    padding: 20px;
+    flex: 0 0 50px; /* Altura fixa */
+    text-align: center;
+}
+
